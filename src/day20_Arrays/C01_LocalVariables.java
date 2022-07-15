@@ -14,10 +14,7 @@ public class C01_LocalVariables {
 
         // static int sayiStatic=20; static keyword sadece class level da kullanilabilir
         // methodlarin icerinde static variable TANIMLANAMAZ
-
-
     }
-
     public static void method1(){
 
         //System.out.println(sayi); sayi main methodda olusturulmus local bir variable dir
