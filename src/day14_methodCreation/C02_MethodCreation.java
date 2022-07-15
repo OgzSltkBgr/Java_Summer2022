@@ -7,7 +7,7 @@ public class C02_MethodCreation {
         // verilen 3 basamakli bir sayinin
         // rakamlari toplamini yazdiran bir method olusturalim
 
-        int input=126;
+        int input=987;
 
         rakamlariTopla(input);
         C04_MethodCreation.topla(6,3);
