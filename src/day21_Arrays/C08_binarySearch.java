@@ -6,7 +6,7 @@ public class C08_binarySearch {
     public static void main(String[] args) {
         /*
          Binary search java da eleman aramanin kisa yoludur
-         Ancak binary searc'un calismasi icin once
+         Ancak binary search'un calismasi icin once
          array'in sirali hale getirilmesi gerekir
          Eger siralama yapmadan binarySearch yaparsaniz
          sonucu bulamayabilir veya yanlis bulabilir

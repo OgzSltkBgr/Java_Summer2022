@@ -11,9 +11,9 @@ public class C03_length {
 
         String harfler[]= new String[4];
 
-        System.out.println("sayilar array inin uzunlugu : " + sayilar.length);
+        System.out.println("sayilar array inin uzunlugu : " + sayilar.length); // 3
         // String length() method'unda parantez var, array'de yok
-        System.out.println("harfler array inin uzunlugu : " + harfler.length);
+        System.out.println("harfler array inin uzunlugu : " + harfler.length);// 4
 
         System.out.println(Arrays.toString(harfler));// [null, null, null, null]
 

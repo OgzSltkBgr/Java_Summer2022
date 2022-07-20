@@ -25,7 +25,6 @@ public class C08_WhileLoop {
             toplam+=sayi; // sayiyi toplaya ekledi
             sayac++;
         }
-
         System.out.println(sayac + " sayi giridiniz ve toplamlari : " + toplam);
     }
 }

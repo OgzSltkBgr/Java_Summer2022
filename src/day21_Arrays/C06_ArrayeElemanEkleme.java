@@ -7,7 +7,9 @@ public class C06_ArrayeElemanEkleme {
         // C05 deki method'u kullanarak array'e eleman ekleyelim
         String [] takimListesi={"Suleyman", "Osman"};
         String eklenecekIsim="Talha";
+
         takimListesi= C05_ArrayeElementEkleme.elemanEkle(takimListesi,eklenecekIsim);
+
         System.out.println(Arrays.toString(takimListesi));
     }
 }

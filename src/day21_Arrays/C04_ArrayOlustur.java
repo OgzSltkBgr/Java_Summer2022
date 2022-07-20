@@ -12,10 +12,11 @@ public class C04_ArrayOlustur {
         System.out.println(Arrays.toString(sayilar));
     }
     public static int[] arrayOlustur() {
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
         System.out.println("Kac elemanli bir array olusturmami istersiniz");
         int uzunluk=scan.nextInt();
         int[] olusturulan =new int[uzunluk];
+
         for (int i = 0; i <uzunluk ; i++) {
             System.out.println(i +". index icin sayi giriniz" );
             olusturulan[i]=scan.nextInt();

@@ -3,8 +3,7 @@ package day21_Arrays;
 import java.util.Scanner;
 
 public class C03_Contains {
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             // Soru 3- Kulanicidan aldiginiz bir ismin,verilen array’de olup olmadigini kontrol edip,
             // bize true veya false sonucu donen bir method olusturun.
             String [] isimler= {"Basak", "Nurullah", "Fatih","Adem","Enes"};
@@ -25,7 +24,6 @@ public class C03_Contains {
                     sonucMethod=true;
                 }
             }
-
             return sonucMethod;
         }
 }

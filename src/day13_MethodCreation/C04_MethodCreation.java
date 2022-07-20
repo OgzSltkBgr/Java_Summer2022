@@ -14,13 +14,7 @@ public class C04_MethodCreation {
         //2.adim argumetn eklenmesi gerekiyorsa ekleyelim
         // eger methpdun return type voidde farkli olacaksa
         // bir variable olusturup, method call'u assıgn edelim
-
-
         topla(input1, input2);
-
-
-
-
     }
 
     public static void topla(int input1, int input2) {

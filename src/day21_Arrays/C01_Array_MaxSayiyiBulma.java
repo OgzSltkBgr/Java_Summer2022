@@ -4,7 +4,7 @@ public class C01_Array_MaxSayiyiBulma {
     public static void main(String[] args) {
         // Verilen bir int arraydaki en buyuk sayiyi yazdiran bir method olusturun.
 
-        int[] sayilar={3,5,7,1,4,9,5,2};
+        int[] sayilar={3,5,7,11,4,9,5,2};
 
         maxSayiyiYazdir(sayilar);
     }
@@ -18,7 +18,7 @@ public class C01_Array_MaxSayiyiBulma {
             }
 
 
-        } System.out.println("Arraydeki en buyuk sayi :" + maxSayi);
+        } System.out.println("Arraydeki en buyuk sayi : " + maxSayi);
 
 
     }
