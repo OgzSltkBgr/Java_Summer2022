@@ -7,7 +7,7 @@ public class C02_NestedForLoop {
         input 3
         1 2 3
         2 4 6
-        2 6 9
+        3 6 9
          */
         int input = 3;
 
