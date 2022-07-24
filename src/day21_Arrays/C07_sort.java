@@ -8,5 +8,6 @@ public class C07_sort {
         // Array'i Arrays class'ini kullanarak natural sirali hale getirebiliriz
         Arrays.sort(sayilar);
         System.out.println(Arrays.toString(sayilar)); // [1, 4, 5, 5, 7, 7, 9]
+
     }
 }
