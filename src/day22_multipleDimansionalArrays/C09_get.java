@@ -20,7 +20,8 @@ public class C09_get {
         System.out.println(sayilar1.get(1)); // 3
         /*
         isimler.get(2);
-  System.out.println(isimler.get(2));//get index i secersek o bize Enes i getirir cunku ikinci index e denk gelen sırada enes var
+  System.out.println(isimler.get(2));//get index i secersek o bize Enes i getirir
+  cunku ikinci index e denk gelen sırada enes var
             sayilar1.get(1);//sen bana indexi ver ben sana integer dondureyim diyor
                 System.out.println(sayilar1.get(1));//3 dondurur
   //bunlara generic methodlar denir, yani ben string bir liste icin
