@@ -10,6 +10,9 @@ public class C02_Append {
         System.out.println(sb);// Java daha ne yapsin?
 
         // appende istedigimiz String i en sona ekler
+        sb.append("Java",2,4);
+
+        System.out.println(sb);
 
         sb.insert(4," her seyi dusunmus,");
         System.out.println(sb); // Java her seyi dusunmus, daha ne yapsin?

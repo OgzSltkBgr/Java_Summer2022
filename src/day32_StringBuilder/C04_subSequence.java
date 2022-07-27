@@ -5,6 +5,7 @@ public class C04_subSequence {
         StringBuilder sb = new StringBuilder("Kayra");
 
         sb.substring(0,3);
+        sb.subSequence(2,4);
 
         System.out.println(sb);
     }
