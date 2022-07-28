@@ -11,14 +11,15 @@ public class ArabaRunner {
         // access modifier kullanarak marka variable ina ulaşımı
         // tamamen serbest yapabilir veya tamamen engelleyebilirm
         // private yaptigimiz modele ise hic ulasamayiz
+        // yani access modifier ya hep ya hic diyor
 
         // modeli degistirelim ama goremeyelim
         // yakiti da gorelim ama degistiremeyelim
 
         // set ve get yetkilerini ozel olarak tanımlamak isterseniz
-        // 1. adim- ozel yetki tanımlayacaginiz variable lari private yapin
+        //** 1. adim- ozel yetki tanımlayacaginiz variable lari private yapin   **
         // private bir dataya baska class lardan ulasmak mumkun olmadigindan
-        // 2. adim set yetkisi icin setter, get yetkisi icin getter methodlari olusturualim
+        //** 2. adim set yetkisi icin setter, get yetkisi icin getter methodlari olusturualim   **
 
         arb1.setModel("Supra");// model olarak Suprayi  atadik
         // modeli yazdirma imkanımız yok, cunku getter methodu yok

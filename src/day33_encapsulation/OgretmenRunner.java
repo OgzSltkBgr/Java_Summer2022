@@ -8,7 +8,7 @@ public class OgretmenRunner {
         System.out.println(ogr1.getIsim());
         /*
         Bu yontemde data hiding degil
-        daha anlasilir bir kod
+        daha anlasilir bir kod amaclanmis olur
          */
     }
 }

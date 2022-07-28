@@ -11,7 +11,7 @@ public class Tasit {
     }
     // getter methodu da tek bir satirlik islem yapiyor
     // baska class larin private oldugu icin erisemedigi
-    //tasittru bilgisini, class icinden alip
+    //tasiTuru bilgisini, class icinden alip
     // istenen farkli class lar return ediyor
 
     public void setTasitTuru(String tasitTuru) {
