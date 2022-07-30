@@ -14,6 +14,7 @@ public class AGrandParent {
     protected  String grandpaKlupAdi="Grandpa klubu";
 
     AGrandParent() {
+
         System.out.println("Grandpa cons calisti");
     }
 

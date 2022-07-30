@@ -8,6 +8,7 @@ public class DPersonel {
     }
 
     DPersonel(String isim){
+
         System.out.println("Personel parametreli cons");
     }
 }

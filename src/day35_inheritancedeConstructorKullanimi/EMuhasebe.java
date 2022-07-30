@@ -6,6 +6,7 @@ public class EMuhasebe extends DPersonel{
         System.out.println("EMuhasebe parametresiz cons");
     }
     EMuhasebe(String isim){
+
         System.out.println("EMuhasebe parametreli cons");
     }
 }

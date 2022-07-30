@@ -5,6 +5,7 @@ public class Child extends BParent {
     String isim ="Child isim belirtilmedi";
     protected  String childKlupAdi="Child klubu";
     Child(){
+
         System.out.println("Child cons calisti");
    }
 
