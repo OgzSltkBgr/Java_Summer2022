@@ -6,6 +6,7 @@ public class TasitRunner {
 
         tst1.setTasitTuru("Tir");
 
+
         System.out.println(tst1.getTasitTuru());
     }
 }

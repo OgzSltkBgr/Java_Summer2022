@@ -15,26 +15,32 @@ public class Tasit {
     // istenen farkli class lar return ediyor
 
     public void setTasitTuru(String tasitTuru) {
+
         this.tasitTuru = tasitTuru;
     }
     //return olmadığı icin bu methodun cağırıldığı tasitrunner classinden yazdirilamaz
-    //burada bir satırlık islem yapıyor o bir satırlık islemde bizim gönderdiğimiz parametreyi instence variable a atıyor.
+    //burada bir satırlık islem yapıyor o bir satırlık islemde
+    // bizim gönderdiğimiz parametreyi instence variable a atıyor.
 
     public boolean isMuayenesiVarMi() {
+
         return muayenesiVarMi;
     }
     // boolean variable lar icin olusturulan gettermethodlarinin ismi
     // isVariable ismi seklinde olur
 
     public void setMuayenesiVarMi(boolean muayenesiVarMi) {
+
         this.muayenesiVarMi = muayenesiVarMi;
     }
 
     public int getYil() {
+
         return yil;
     }
 
     public void setYil(int yil) {
+
         this.yil = yil;
     }
 }

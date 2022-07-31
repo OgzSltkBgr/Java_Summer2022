@@ -15,9 +15,11 @@ public class EYanHizmetliler extends BMuhasebe{
         parent class'daki ayni isimdeki methodu
         etkisiz hale getirerek
         kendisinin spesifik ozelligini ortaya cikarmasidir.
+
         Overriding'i nerede dikkate aliyoruz?
         bir obje olusturulurken
         data turu ve constructor farkli ise
+
         eger bir obje olusturulurken
         data turu ve constructor farkli ise
         objenin ozelliklerini belirlerken
@@ -32,6 +34,7 @@ public class EYanHizmetliler extends BMuhasebe{
         override edilmis mi diye kontrol etmemiz gerekir
         eger override edildiyse en guncel degeri yazdiriz
          */
+
         BMuhasebe yh1= new EYanHizmetliler();
         System.out.println(yh1.gunlukMesai); // M 8
         System.out.println(yh1.saatUcreti); // M 10
