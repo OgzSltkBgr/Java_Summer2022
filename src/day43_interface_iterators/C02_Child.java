@@ -16,11 +16,11 @@ public class C02_Child implements I01_InterfaceBodyolanMethod{
         return null;
     }
     /*
-    parent interface de abstract olan 3 ethod u implement ettigimizde Java itirazi durdurur
+    parent interface de abstract olan 3 method u implement ettigimizde Java itirazi durdurur
     sonradan ekledigimiz default ve static keyword ile tanimladigimiz
     method lari implemen etmemiz sorun olusturmadi
 
-    O zamannicin 2 keyword (static ve dafault) tanimlanmistir ?
+    O zaman nicin 2 keyword (static ve dafault) tanimlanmistir ?
      Bu iki farkli kelimenin amaci
      child class lardan bu method a nasil erisilebilecegini belirlemek icindir
      static keyword kullanilirsa child class lardan bu method a erismek icin
