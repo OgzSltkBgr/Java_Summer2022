@@ -10,47 +10,47 @@ import java.util.Queue;
 public class C03_LinkedListDataTuru {
     public static void main(String[] args) {
 
-        LinkedList<String> linkedList = new LinkedList<>();
+        LinkedList<String> ll1=new LinkedList();
 
-        List<String> list = new LinkedList<>();
+        List<String> ll2=new LinkedList();
 
-        list.add("Berk");
-        list.add("Serap");
-        list.add("Java");
-        list.add("Can");
-        System.out.println("list = " + list); // [Murtaza, Mahmut, Java, Can]
+        Queue<String> ll3=new LinkedList();
 
-        System.out.println("list.remove(3) = " + list.remove(3)); // Can
+        Deque<String> ll4=new LinkedList();
 
-        /*
-        Eger list'imiz Integer elementlerden olusuyorsa direkt sayi yazarsak
-        index olarak kabul eder. Bir variable'a atama yapar ve remove'da o
-        variable'in ismini yazarsak obje olarak kabul eder.
-         */
-        System.out.println(list.remove("Murtaza")); //false
+        ll2.add("Berk");
+        ll2.add("Done");
+        ll2.add("Enes");
+        ll2.add("Ayse");
 
-        System.out.println(list.isEmpty()); // false list bos mu
+        System.out.println(ll2); // [Berk, Done, Enes, Ayse]
 
-        list.set(1,"Serap");
-        System.out.println("list = " + list); // [Berk, Serap, Java]
+        System.out.println(ll2.remove(3)); // Ayse
 
-        linkedList.add("Berk");
-        linkedList.add("ismail");
-        System.out.println("linkedList = " + linkedList); // [Berk, ismail]
+        // eger Listemiz Integer elementlerden olusuyorsa
+        // direk sayi yazarsak index olarak kabul eder
+        // bir variable'a atama yapar ve remove'da o variabe'in ismini yazarsak obje olarak kabul eder
 
-        list.retainAll(linkedList);// list'deki tum elementleri linkedlist ile
-        // karsilastirir linkedlist'te olmayanlari siler
+        System.out.println(ll2.remove("Kemal")); // false
 
-        System.out.println("list = " + list);// [Berk]
+        System.out.println(ll2.isEmpty()); // false
 
+        ll2.set(1,"Serap");
+        System.out.println(ll2); // [Berk, Serap, Enes]
 
-        System.out.println("list.hashCode() = " + list.hashCode()); // 2066939
+        ll1.add("Berk");
+        ll1.add("Ismail");
+        System.out.println(ll1); //[Berk, Ismail]
 
-        list.add("Fatih");
+        ll2.retainAll(ll1); // ll2 deki tum elementleri ll1 ile karsilastirir
+        // ll1'de olmayanlari siler
+        System.out.println(ll2); // [Berk]
 
-        System.out.println("list.hashCode() = " + list.hashCode()); // 131726141
+        System.out.println(ll2.hashCode()); // 2066939
+
+        ll2.add("Fatih");
+        System.out.println(ll2.hashCode()); // 131726141
     }
-
 
 
 
