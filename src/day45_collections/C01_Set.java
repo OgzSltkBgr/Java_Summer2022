@@ -9,7 +9,7 @@ public class C01_Set {
         // verilen bir array deki tekrar eden elementleri silip
         // tekrarsiz halini array e ataya kod yaziniz
 
-        int arr[]={4,5,3,6,8,5,1,9,0,4,2,5,7,9,1,2,5,7,6};
+        int [] arr={4,5,3,6,8,5,1,9,0,4,2,5,7,9,1,2,5,7,6};
         Set<Integer> tekrarsizSet = new HashSet<>();
 
         for (int each :arr) {
@@ -17,7 +17,7 @@ public class C01_Set {
         }
         System.out.println(tekrarsizSet);
 
-        int tekrarsiArr[]=new int[tekrarsizSet.size()];
+        int [] tekrarsiArr=new int[tekrarsizSet.size()];
         int i=0;
         for (int each : tekrarsizSet){
             tekrarsiArr[i]=each;

@@ -13,7 +13,9 @@ public class C05_LinkedList_DequeDataTuru {
         ll4.add("Selim");
         ll4.removeLastOccurrence("Selim");
         System.out.println(ll4); // [Cavidan, Mesut, Selim, Tevfik]
-        System.out.println(ll4.pop());
+        System.out.println(ll4.pop()); // Cavidan Listeden ilk elemanı bize dondurur ve siler
+        System.out.println(ll4);// [Mesut, Selim, Tevfik]
+
     }
 
 }
