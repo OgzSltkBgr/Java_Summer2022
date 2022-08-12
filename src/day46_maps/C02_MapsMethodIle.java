@@ -14,6 +14,8 @@ public class C02_MapsMethodIle {
         // Isim ve soyisimkerin birlikte olacagi bir liste olusturun
         List<String> sinifIsimSoyisimList=ReusableMethods.isimSoyisimListesiOlustur(ogrenciMap);
         System.out.println("isim soyisim listesi : "+sinifIsimSoyisimList);
+
+
     }
 }
 
