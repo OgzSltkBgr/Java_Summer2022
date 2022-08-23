@@ -36,4 +36,12 @@ public static char sonKarakteriAl(String str){
 
         return str.charAt(0);
     }
+    public static int rakamlarToplami(int x){
+        int toplam=0;
+        while (x>0){
+            toplam +=x%10;
+            x/=10;
+        }
+        return toplam;
+    }
 }
