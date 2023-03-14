@@ -1,5 +1,8 @@
 package lambda_functional_programming01;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Utils {
@@ -44,4 +47,6 @@ public static char sonKarakteriAl(String str){
         }
         return toplam;
     }
+
+
 }
